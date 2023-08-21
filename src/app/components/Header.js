@@ -6,9 +6,11 @@ import { Link } from 'react-scroll';
 import SearchMobile from './SearchMobile';
 import { useMediaQuery } from 'react-responsive';
 import { BiMenuAltRight, BiX } from 'react-icons/bi';
+import { SearchContext } from '../context/search';
 
 const Header = () => {
 
+  const { setSearchActive } = useContext(SearchContext)
   const [header, setHeader] = useState(false);
   const [nav, setNav] = useState(false);
 
@@ -24,6 +26,12 @@ const Header = () => {
         setHeader(true);                                // Si es mayor, mostramos el encabezado
       }else{
         setHeader(false)                                // Si no, ocultamos el encabezado
+      }
+
+      if(window.scrollY > 800){
+        setSearchActive(true)
+      }else{
+        setSearchActive(false)
       }
     };
 
