@@ -2,7 +2,7 @@
 
 const Why = () => {
   return (
-    <div>Why</div>
+    <section className="section flex items-center bg-green-200" id="why">Why</section>
   )
 }
 

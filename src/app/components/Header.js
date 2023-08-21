@@ -74,12 +74,12 @@ const Header = () => {
           xl:h-max xl:bg-transparent xl:pb-0 transition-all duration-150 text-center xl:text-left uppercase text-sm xl:text-[15px]
           xl:normal-case`
         }>
-          <Link className='cursor-pointer' to='home' activeClass='active' smooth={desktopMode} spy={true}>Cars</Link>
+          <Link className='cursor-pointer' to='home' activeClass='active' smooth={desktopMode} spy={true}>Home</Link>
           <Link className='cursor-pointer' to='cars' activeClass='active' smooth={desktopMode} spy={true}>Cars</Link>
           <Link className='cursor-pointer' to='about' activeClass='active' smooth={desktopMode} spy={true}>About</Link>
           <Link className='cursor-pointer' to='why' activeClass='active' smooth={desktopMode} spy={true}>Why us</Link>
-          <Link className='cursor-pointer' to='testimonials' activeClass='active' smooth={desktopMode} spy={true}>Testimonials</Link>
-          <Link className='cursor-pointer' to='contact' activeClass='active' smooth={desktopMode} spy={true}>Contact</Link>
+          <Link className='cursor-pointer' to='testimonial' activeClass='active' smooth={desktopMode} spy={true}>Testimonials</Link>
+          <Link className='cursor-pointer' to='cta' activeClass='active' smooth={desktopMode} spy={true}>Contact</Link>
           <Link className='xl:hidden btn btn-primary btn-sm max-w-[164px] mx-auto' to='/' activeClass='active' smooth={desktopMode} spy={true}>
             See all cars
           </Link>
