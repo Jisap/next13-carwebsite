@@ -28,9 +28,9 @@ const Header = () => {
         setHeader(false)                                // Si no, ocultamos el encabezado
       }
 
-      if(window.scrollY > 800){
+      if (window.scrollY > 800) { // Si el scrollY > 800 <Search /> dentro de <Hero /> justo debajo del Header
         setSearchActive(true)
-      }else{
+      }else{                      // Sino <Search /> dentro de <Hero /> abajo entre <Hero/> y el siguiente componente
         setSearchActive(false)
       }
     };
