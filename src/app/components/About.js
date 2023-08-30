@@ -65,10 +65,10 @@ const About = () => {
               </motion.p>
               {/* stats */}
               <motion.div 
-                variants={fadeIn('up', 0.8)}
+                variants={fadeIn('up', 0.6)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.6 }}
                 className="flex items-center gap-x-8 mb-12"
               >
                 {/* car types */}
