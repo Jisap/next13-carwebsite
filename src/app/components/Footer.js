@@ -63,19 +63,19 @@ const Footer = () => {
 
           {/* programs */}
           <div className="flex-1">
-            <h3>Working Hours</h3>
+            <h3 className="h3 font-bold mb-8 ">Working Hours</h3>
             <div className="flex flex-col gap-y-4">
               <div className="flex gap-x-2">
-                <div>Mon-Fri:</div>
-                <div>09:00AM - 09:00PM</div>
+                <div classname="text-secondary">Mon-Fri:</div>
+                <div className="font-semibold">09:00AM - 09:00PM</div>
               </div>
               <div className="flex gap-x-2">
-                <div>Sat:</div>
-                <div>09:00AM - 07:00PM</div>
+                <div classname="text-secondary">Sat:</div>
+                <div className="font-semibold">09:00AM - 07:00PM</div>
               </div>
               <div className="flex gap-x-2">
-                <div>Sun:</div>
-                <div>Closed</div>
+                <div className="text-secondary">Sun:</div>
+                <div className="font-semibold">Closed</div>
               </div>
             </div>
           </div>
