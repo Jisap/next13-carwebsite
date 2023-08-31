@@ -80,7 +80,18 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>4</div>
+          {/* newsletter */}
+          <div className="flex-1">
+            <h3 className="h3 font-bold mb-8 ">Newsletter</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            {/* form */}
+            <form>
+              <input type="text" placeholder="your email"/>
+              <button>Submit</button>
+            </form>
+          </div>
         </motion.div>
       </div>
     </footer>
