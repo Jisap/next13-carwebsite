@@ -83,13 +83,13 @@ const Footer = () => {
           {/* newsletter */}
           <div className="flex-1">
             <h3 className="h3 font-bold mb-8 ">Newsletter</h3>
-            <div>
+            <div className="mb-9 text-secondary">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             {/* form */}
             <form className="flex gap-x-2 h-14">
               <input type="text" placeholder="your email" className="outline-none bg-white h-full border rounded-lg pl-4
-              focus-border-accent"/>
+              focus:border-accent"/>
               <button
                 type="submit"
                 className="btn btn-sm btn-accent w-24"  
